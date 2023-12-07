@@ -26,3 +26,16 @@ variable "project_owner" {
   default = "akash"
 }
 
+
+variable "hosted_zone_name" {
+  type        = string
+  description = "hosted zone"
+  default     = "sproadways.online"
+}
+
+
+variable "hostname" {
+  type    = string
+  default = "terraform"
+}
+
